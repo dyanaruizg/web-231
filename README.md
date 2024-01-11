@@ -1,8 +1,5 @@
-# web-231
+# WEB 231 Enterprise JavaScript I
+## Contributors
 
-<h1>WEB 231 Enterprise JavaScript I</h>
-<h2>Contributors</h2>
-
-• Instructor: Richard Krasso
-<br>
-• Author: Diana Ruiz Garcia
+* Instructor: Richard Krasso
+* Author: Diana Ruiz Garcia
