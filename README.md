@@ -4,4 +4,5 @@
 <h2>Contributors</h2>
 
 • Instructor: Richard Krasso
+<br>
 • Author: Diana Ruiz Garcia
