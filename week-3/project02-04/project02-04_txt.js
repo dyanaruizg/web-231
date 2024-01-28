@@ -1,22 +1,23 @@
-/*    JavaScript 7th Edition
-      Chapter 2
-      Project 02-04
+/*    
+   JavaScript 7th Edition
+   Chapter 2
+   Project 02-04
 
-      Application to calculate the cost of a restaurant order plus tax
-      Author: Diana Ruiz Garcia
-      Date: 01/27/2024
+   Application to calculate the cost of a restaurant order plus tax
+   Author: Diana Ruiz Garcia
+   Date: 01/27/2024
 
-      Filename: project02-04.js
- */
+   Filename: project02-04.js
+*/
  
 
 
 
 
 // Function to display a numeric value as a text string in the format $##.## 
- function formatCurrency(value) {
-    return "$" + value.toFixed(2);
- }
+function formatCurrency(value) {
+   return "$" + value.toFixed(2);
+}
 
 // Declare global constants for the application
 const CHICKEN_PRICE = 10.95;
@@ -33,7 +34,7 @@ burger.addEventListener("click", calcTotal);
 salmon.addEventListener("click", calcTotal);
 salad.addEventListener("click", calcTotal);
 
- // calculate the total cost of the food
+// calculate the total cost of the food
 function calcTotal() {
    let cost = 0;
    let buyChicken = document.getElementById("chicken").checked;
