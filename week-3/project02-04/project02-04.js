@@ -58,6 +58,8 @@ function calcTotal() {
    // Add the cost of the salad if purchased
    cost += buySalad ? SALAD_PRICE : 0;
 
+   cost = 3 + +2;
+
    // Display the total cost of the food
    document.getElementById("foodTotal").innerHTML = formatCurrency(cost);
 
