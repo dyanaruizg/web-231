@@ -1,12 +1,13 @@
-/*    JavaScript 7th Edition
-      Chapter 3
-      Project 03-02
+/*    
+  JavaScript 7th Edition
+  Chapter 3
+  Project 03-02
 
-      Application to generate a slide gallery
-      Author: Diana Ruiz Garcia
-      Date: 02/06/2024
+  Application to generate a slide gallery
+  Author: Diana Ruiz Garcia
+  Date: 02/06/2024
 
-      Filename: project03-02.js
+  Filename: project03-02.js
 */
 
 let captions = new Array(14);
@@ -29,10 +30,10 @@ captions[13]="The ISS over the Ionian Sea [2007]";
 let htmlCode = "";
 
 for (let i = 0; i < captions.length; i++) {
-      htmlCode += "<figure>";
-      htmlCode += "<img alt='' src='slide" + i + ".jpg' />";
-      htmlCode += "<figcaption>caption[" + i + "]</figcaption>";
-      htmlCode += "</figure>";
+  htmlCode += "<figure>";
+  htmlCode += "<img alt='' src='slide" + i + ".jpg' />";
+  htmlCode += "<figcaption>caption[" + i + "]</figcaption>";
+  htmlCode += "</figure>";
 }
 
 document.getElementById("gallery").innerHTML = htmlCode;
